@@ -60,3 +60,7 @@ button, input {
     background: #ebecf0;
     text-shadow: 1px 1px 0 #fff; 
 }
+
+input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff ;
+}
