@@ -37,3 +37,13 @@ input{
     appearance: none 0;
     -webkit-appearance: none;
 }
+
+button, input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background: #ebecf0;
+    text-shadow: 1px 1px 0 #fff; 
+}
