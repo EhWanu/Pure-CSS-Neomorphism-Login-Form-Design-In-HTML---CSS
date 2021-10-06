@@ -81,3 +81,24 @@ button:hover {
 button:active {
     box-shadow: inset 1px 1px 2px #babecc,-1px -1px 2px #fff;  
 }
+
+.red {
+    display: block;
+    width: 100%;
+    color: #ae1100;
+}
+
+.social-media {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.social-media .social-icons {
+    border-radius: 8px;
+    line-height: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 18px;
+}
