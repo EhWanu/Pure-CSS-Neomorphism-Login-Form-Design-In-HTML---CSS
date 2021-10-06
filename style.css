@@ -15,7 +15,7 @@ body{
 }
 
 div, p {
-    color: #ebecf0;
+    color: #babecc;
     text-shadow: 1px 1px 1px #fff;
 }
 
@@ -88,6 +88,10 @@ button:active {
     color: #ae1100;
 }
 
+.red i {
+    margin-right: 5px; 
+}
+
 .social-media {
     padding: 25px 0;
     text-align: center;
@@ -102,3 +106,51 @@ button:active {
     margin: 0 8px;
     font-size: 18px;
 }
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.input-checkbox {
+    display: none;
+}
+
+.label-checkbox{
+    margin: 0;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer; 
+}
+
+.label-checkbox::before{
+    content: '\f00c';
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px; 
+    background-color: #e6e6e6;
+    transform: translateY(-50%);
+    -webkit-transform:translateY(-50%);     
+}
+
+.input-checkbox:checked + .label-checkbox::before{
+    color: #c87ef0;
+}
+
+.txt1{
+    font-size: 15px;
+    color: #a28080;
+    line-height: 1.4;
+}
+
