@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebecf0;
+}
+
+.login-form {
+    width: 350px;
+    height: auto;
+}
+
+.form-title {
+    text-align: center;
+    padding: 25px 0 ;
+}
+
+label{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+input{
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    appearance: none 0;
+    -webkit-appearance: none;
+}
